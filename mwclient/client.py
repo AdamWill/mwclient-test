@@ -13,7 +13,7 @@ import mwclient.listing as listing
 from mwclient.sleep import Sleepers
 from mwclient.util import parse_timestamp, read_in_chunks
 
-__version__ = '0.10.1'
+__version__ = '0.10.2'
 
 log = logging.getLogger(__name__)
 
@@ -464,7 +464,7 @@ class Site:
         host = self.host
         if isinstance(host, (list, tuple)):
             warnings.warn(
-                'Specifying host as a tuple is deprecated as of mwclient 0.10.1. '
+                'Specifying host as a tuple is deprecated as of mwclient 0.10.2. '
                 + 'Please use the new scheme argument instead.',
                 DeprecationWarning
             )

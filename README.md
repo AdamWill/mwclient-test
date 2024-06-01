@@ -29,7 +29,7 @@ For functions not available in the current MediaWiki,
 a `MediaWikiVersionError` is raised.
 
 The current stable
-[version 0.10.1](https://github.com/mwclient/mwclient/archive/v0.10.1.zip)
+[version 0.10.2](https://github.com/mwclient/mwclient/archive/v0.10.2.zip)
 is [available through PyPI](https://pypi.python.org/pypi/mwclient):
 
 ```
